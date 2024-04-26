@@ -8,9 +8,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-body {
-    overflow-y: hidden;
-}
+
 .fill,
 .lines,
 .toggle-btn,
@@ -29,6 +27,7 @@ body {
   color: #505050;
   font: 300 14px Lato, sans-serif;
   letter-spacing: 0.5px;
+  overflow-y: hidden;
 }
 h1,
 h2,
