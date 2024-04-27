@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  display: none;
+}
 .lines,
 .row,
 .toggle-btn,
@@ -83,9 +86,9 @@ section {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.blog-img{
-    height: 100%;
-    width: 100%;
+.blog-img {
+  height: 100%;
+  width: 100%;
 }
 .blog-img a,
 .menu .nav li,
@@ -557,8 +560,8 @@ button.mfp-close:hover {
   margin-bottom: 30px;
   text-align: left;
 }
-#testimonial_text{
-    color: white;
+#testimonial_text {
+  color: white;
 }
 .blog-background,
 .blog-img a div,
