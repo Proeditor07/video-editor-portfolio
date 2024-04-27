@@ -18,10 +18,6 @@
         height: auto; /* Maintain aspect ratio */
         max-width: 100%; /* Ensure responsiveness */
       }
-      .youtube-video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
-}
     </style>
     <meta
       name="viewport"
@@ -179,7 +175,14 @@
                 </div>
                 <!-- popup content -->
                 <div id="popup-1" class="mfp-hide popup-box">
-                  <iframe class="youtube-video" src="https://www.youtube.com/embed/uy4I3VFpCOg" title="YouTube video player" ></iframe>
+                  <video controls width="640" height="360">
+                    <source
+                      src="Videos/Drishti_Sharma_sample_video.mp4"
+                      type="video/mp4"
+                    />
+                    <!-- Fallback for browsers that don't support the video tag -->
+                    Your browser does not support the video tag.
+                  </video>
                   <!-- Image source -->
                   <div>
                     <h4>Strange world of terrible drivers</h4>

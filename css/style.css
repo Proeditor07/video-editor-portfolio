@@ -1,5 +1,9 @@
 ::-webkit-scrollbar {
+<<<<<<< HEAD
   display: none;
+=======
+    display: none;
+>>>>>>> 57fa2b119508387c306cc5ac441aedffccdb3b41
 }
 .lines,
 .row,
@@ -11,6 +15,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 .fill,
 .lines,
 .toggle-btn,
