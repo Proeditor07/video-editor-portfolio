@@ -1,9 +1,7 @@
-::-webkit-scrollbar {
-<<<<<<< HEAD
-  display: none;
-=======
-    display: none;
->>>>>>> 57fa2b119508387c306cc5ac441aedffccdb3b41
+::-webkit-scrollbar
+{
+  width: 0;
+  height: 8px;
 }
 .lines,
 .row,
@@ -292,7 +290,9 @@ section {
   margin-bottom: 25px;
 }
 .home-background {
+  /* background: url(../Videos/1080_60_20.55_May102023.mp4) center center no-repeat; */
   background: url(../images/background-2.jpg) center center no-repeat;
+ 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
