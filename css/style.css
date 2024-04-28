@@ -35,12 +35,15 @@ body {
   font: 300 14px Lato, sans-serif;
   letter-spacing: 0.5px;
 }
-h1,
+h1{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
 h2,
 h3,
 h4 {
   margin: 0 0 15px;
-  color: #de5340;
+  color: #004349;
   letter-spacing: 1px;
 }
 h1 {
@@ -251,7 +254,7 @@ section {
 .menu .nav li a:hover,
 .menu .nav li.active a {
   background: 0 0;
-  color: #de5340;
+  color: #00eaff;
 }
 .social-media {
   bottom: 30px;
@@ -266,7 +269,8 @@ section {
   padding: 0;
 }
 .social-media li a {
-  color: #de5340;
+  /* color: #de5340; */
+  color: #00eaff;
   transition: linear 0.1s;
 }
 .social-media li a:hover {
@@ -275,7 +279,9 @@ section {
 .portfolio-filter ul li.mixitup-control-active,
 .portfolio-filter ul li:hover,
 .scroll-down {
-  color: #de5340;
+  /* color: #de5340;
+   */
+   color: #00eaff;
 }
 .fill {
   position: relative;
